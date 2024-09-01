@@ -29,7 +29,7 @@ This repository demonstrates how performance can be improved by using Redis as a
 
 1. **Clone the Repository**
    ```sh
-   git clone https://github.com/devworlds/eventlistener-redis-performance.git
+   git clone https://github.com/your-username/your-repository.git
    cd your-repository
 2. **Install Dependencies**
     ```sh
@@ -37,9 +37,6 @@ This repository demonstrates how performance can be improved by using Redis as a
 3. **Configure Redis and the Database**
     - Ensure Redis is running locally or provide the Redis URL in the configuration file.
     - Set up the database credentials. 
-4. **Run the Docker Compose**
-    ```sh
-    docker compose up
-5. **Run the Application**
+3. **Run the Application**
     ```sh
     go run main.go

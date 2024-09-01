@@ -18,7 +18,7 @@ import (
 )
 
 func Listen() {
-	client, err := ethclient.Dial("wss://mainnet.infura.io/ws/v3/546c10bde2474f839967d30f45a53bdf") //YOUR_API_KEY
+	client, err := ethclient.Dial("wss://mainnet.infura.io/ws/v3/YOUR_API_KEY")
 	if err != nil {
 		log.Fatal(err)
 	}
