@@ -40,6 +40,10 @@ This repository demonstrates how performance can be improved by using Redis as a
 4. **Run the Docker Compose**
     ```sh
     docker compose up
-5. **Run the Application**
+5. **Setting enviroment**
+   ```sh
+   export CACHE=true
+   export CACHE=false
+6. **Run the Application**
     ```sh
     go run main.go
