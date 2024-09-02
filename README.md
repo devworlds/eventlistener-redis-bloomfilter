@@ -17,6 +17,7 @@ This repository demonstrates how performance can be improved by using Redis as a
 - **Ethereum Event Monitoring**: Listens to and processes events from a smart contract on the Ethereum network.
 - **Wallet Verification**: Automatically checks if the wallets registered in the database are mentioned in the events.
 - **Redis Cache**: Utilizes Redis to store information temporarily, reducing the need for frequent database queries and improving overall performance.
+- Bloomfilter: Implements a Bloomfilter to efficiently determine the presence of a wallet in the set, minimizing unnecessary database queries with a lightweight, probabilistic data structure.
 
 ## Technologies Used
 
