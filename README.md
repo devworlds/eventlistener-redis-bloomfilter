@@ -1,4 +1,4 @@
-# Ethereum Event Listener with Redis Cache
+# Ethereum Event Listener with Redis Cache and Bloomfilter
 
 ## Table of Contents
 - [Description](#description)
