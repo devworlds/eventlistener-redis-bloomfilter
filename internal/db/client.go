@@ -16,11 +16,12 @@ const (
 	dbname   = "postgres"
 )
 
-func Connect() *sql.DB {
+func Connect() {
+	var err error
 	connStr := fmt.Sprintf("host=%s port=%d user=%s "+
 		"password=%s dbname=%s sslmode=disable",
 		host, port, user, password, dbname)
-	DB, err := sql.Open("postgres", connStr)
+	DB, err = sql.Open("postgres", connStr)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -29,5 +30,4 @@ func Connect() *sql.DB {
 		log.Fatal(err)
 	}
 	fmt.Println("Database Successfully connected!")
-	return DB
 }
